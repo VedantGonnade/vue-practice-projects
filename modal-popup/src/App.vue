@@ -1,9 +1,14 @@
 <template>
-  <main class="m-12">I am here</main>
+  <main class="h-screen bg-blue-800">
+    <MainModel />
+  </main>
 </template>
 
 <script>
+import MainModel from "@/components/MainModel.vue";
+
 export default {
   name: "App",
+  components: { MainModel },
 };
 </script>
