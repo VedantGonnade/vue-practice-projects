@@ -1,6 +1,6 @@
 <template>
   <div>
-    <PopUpModel v-if="isModalVisible" @click="closeModal"/>
+    <PopUpModel v-if="isModalVisible" @close="closeModal"/>
     <div class="flex items-center justify-center text-white">
       <div class="flex h-64 w-1/4 flex-col items-center justify-center">
         <h1 class="text-4xl">
@@ -29,12 +29,12 @@ export default {
       isModalVisible: false,
     };
   },
-  computed: {
+  methods: {
     openModal() {
-      this.isModalVisible = !this.isModalVisible;
+      this.isModalVisible = true;
     },
     closeModal() {
-      this.isModalVisible = !this.isModalVisible;
+      this.isModalVisible = false;
     },
   },
 };
