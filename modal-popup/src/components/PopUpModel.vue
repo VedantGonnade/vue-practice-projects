@@ -3,7 +3,12 @@
     <div class="relative w-1/2 rounded-lg bg-white">
       <!-- Close Button -->
       <div class="absolute top-2 right-2">
-        <button class="cursor-pointer" @click="$emit('close')">✖</button>
+        <button
+          class="cursor-pointer text-3xl font-extrabold text-gray-600"
+          @click="$emit('close')"
+        >
+          &times;
+        </button>
       </div>
 
       <!-- Content -->
@@ -18,12 +23,7 @@
           dispatched. Fruit defer in party me built under first. Forbade him but
           savings sending ham general. So play do in near park that pain. But
           why smiling man her imagine married. Chiefly can man her out believe
-          manners cottage colonel unknown. Solicitude it introduced companions
-          inquietude me he remarkably friendship at. My almost or horses period.
-          Motionless are six terminated man possession him attachment unpleasing
-          melancholy. Sir smile arose one share. No abroad in easily relied an
-          whence lovers temper by. Looked wisdom common he an be giving length
-          mr.
+          manners cottage colonel unknown. 
         </p>
       </div>
     </div>
