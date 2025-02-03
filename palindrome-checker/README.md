@@ -1,4 +1,4 @@
-# modal-popup
+# Palindrome checker
 
 This project is to create a palindrome checker.
 
