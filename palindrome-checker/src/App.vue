@@ -25,9 +25,13 @@
         <p class="mt-5 font-bold">Result:</p>
         <p v-if="inputWordInvalid" class="text-red-700">Please enter a word</p>
         <p v-else-if="isPalindrome" class="text-green-400">
-          The word is a palindrome
+          The word <span class="text-2xl font-bold">{{ inputWord }}</span> is a
+          palindrome
         </p>
-        <p v-else class="text-red-400">The word is not a palindrome</p>
+        <p v-else class="text-red-400">
+          The word <span class="text-2xl font-bold">{{ inputWord }}</span> is not a
+          palindrome
+        </p>
       </div>
     </div>
   </main>
