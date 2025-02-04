@@ -1,6 +1,6 @@
-# modal-popup
+# click-to-copy
 
-This project is to create a small popup on screen when a button is clicked.
+This project is to create a small component where a text can be copied to a clipboard.
 
 ## Project Setup
 
@@ -16,4 +16,10 @@ npm run dev
 
 The final project will look like this:
 
-![alt text](image.png)
+1. Initial State:
+
+![alt text](./images/initialState.png)
+
+2. Copied state: 
+
+![alt text](./images/copiedCode.png)
